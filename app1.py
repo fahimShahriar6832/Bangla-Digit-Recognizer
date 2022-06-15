@@ -40,7 +40,7 @@ app = Flask(__name__)
 
 
 # Load your trained model
-model = pickle.load(open('/content/drive/Shareddrives/my_workspace/BanglaAI/NumtaSVCModel.h5', 'rb'))
+model = pickle.load(open('NumtaSVCModel.h5', 'rb'))
 
 
 
